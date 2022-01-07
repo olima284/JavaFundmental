@@ -1,2 +1,3 @@
-package com.careerdevs.intro;public interface Debugging {
+package com.careerdevs.intro;
+public class Debugging {
 }
