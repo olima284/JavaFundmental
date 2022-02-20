@@ -1,0 +1,70 @@
+into
+shortCuts
+sout/tab (System.out.println)
+shift\f6 (rename/refactor shortcut )
+Static:
+means this method belongs to the class Main and not to a specific instance of Main
+Void:
+means this method doesn't return a value.
+Methods can return a single value in Java and it has to be defined in the method declaration
+
+Define the terms:
+Java is an object-oriented programming language.
+
+Everything in Java is associated with classes and objects, along with its attributes and methods.
+For example: in real life, a car is an object.
+The car has attributes, such as weight and color, and methods, such as drive and brake.
+
+Method :
+A method is a  block of code which only runs when its called
+A method must be declared within a class
+its defined with a name and parentheses ()
+can accept values from, ND return results back to other parts of the program
+ Method is function that is used to manipulate the data of the object where it belongs
+
+
+public class Main {
+  static void myMethod() {
+    // code to be executed
+  }
+}
+**myMethod() is the name of the method**
+
+Class:
+To create a class, use the keyword class
+*Create a class named "Main" with a variable x:*
+public class Main {
+  int x = 5;
+}
+
+Function:
+Functions can be called to do their tasks anywhere in a program,
+as many times as needed
+all function definitions must be inside classes
+Function is a set of logic that can be used to manipulate data
+
+Field:
+A field represents a value, such a numerical value or a text
+A Java field is a variable inside a class. For instance,
+in a class representing an employee, the Employee class might contain the
+following fields: Name, Position, Salary, HiredDate
+
+
+
+Variable:
+variables are containers for storing data values
+TYPES: String, Int, Float, Char, Boolean
+Local Variables:
+A variable defined within a block or method or constructor is called a local variable.
+Instance Variables:
+Instance variables are non-static variables and are declared in a class outside any method, constructor, or block.
+Static Variables
+Static variables are also known as Class variables.
+
+
+Define the terms in relation to each other. ie a method is a function, defined within an object…a function is…
+
+every line of code that runs inside java must be inside a MainClass
+Fields are variables within Java classes. A Java method is a set of instructions that perform a task.Methods and functions are the same thing. You call a function a function when it is outside of a class, and you call a function a Method when it is written inside a class.
+
+
