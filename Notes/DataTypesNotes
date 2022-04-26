@@ -75,11 +75,11 @@ Run
 //System.out.println(result);
 //Run: 67
 
-//format integer into currency
-//NumberFormat currency = NumberFormat.getCurrencyInstance();
-//String result = currency.format( 123456.891);
-// System.out.println(result);
-//Runs:$123,456.89
+format integer into currency
+NumberFormat currency = NumberFormat.getCurrencyInstance();
+String result = currency.format( 123456.891);
+System.out.println(result);
+Runs:$123,456.89
 
 //format integer into Percent
 // NumberFormat percent = NumberFormat.getPercentInstance();

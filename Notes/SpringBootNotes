@@ -1,0 +1,16 @@
+Kill Port -
+
+
+Step one:
+Open Windows PowerShell as Administrator
+
+Step two:
+Find PID (ProcessID) for port 8080:
+
+netstat -aon | findstr 8080
+TCP 0.0.0.0:8080 0.0.0.0:0 LISTEN 77777
+
+Step three:
+Kill the zombie process:
+
+taskkill /f /pid 77777
